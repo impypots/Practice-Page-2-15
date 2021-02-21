@@ -72,9 +72,14 @@ h1 {
     margin: 0;
 }
 
+#nav-bar li:hover {
+    text-decoration: underline;
+}
+
 #main p {
     max-width: 70ch;
     line-height: 2em;
+    margin: 5ch;
 }
 
 @media only screen and (min-width: 600px) {
@@ -108,6 +113,7 @@ h1 {
     }
 
     #nav-bar li:hover {
+        text-decoration: none;
         border: solid 1px rgba(214, 182, 0, 1);
         color: rgb(255, 217, 0);
         border-radius: 25px;
